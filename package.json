@@ -2,6 +2,7 @@
   "name": "gnosis-app",
   "version": "0.0.0",
   "scripts": {
+  "homepage": ".",
     "ng": "ng",
     "start": "node --max_old_space_size=2048 ./node_modules/@angular/cli/bin/ng serve",
     "copy-manifest": "cp src/manifest.json dist/gnosis-app/",
