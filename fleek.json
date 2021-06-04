@@ -1,0 +1,11 @@
+{
+ "build": {
+   "image": "node:alpine",
+   "command": "ng build",
+   "publicDir": {
+   "baseDir": "master",
+   "environment": {
+     "SOME_ENV": "Build finished?"
+   }
+ }
+}
